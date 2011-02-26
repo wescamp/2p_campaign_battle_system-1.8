@@ -13,11 +13,11 @@ v1.1.1
 1. What is it?
 --------------
 
-The 2p Campaign Battle System is a simple addon for Wesnoth version 1.8.4 that allows two players to play cooperatively against the AI across a number of scenarios and maintain a persistent army. After each scenario the players can choose their next scenario, allowing them to control the difficulty level, the enemies they will face and the terrain they will fight on.
+The 2p Campaign Battle System is a simple addon for Wesnoth version 1.8.x that allows two players to play cooperatively against the AI across a number of scenarios and maintain a persistent army. After each scenario the players can choose their next scenario, allowing them to control the difficulty level, the enemies they will face and the terrain they will fight on.
 
 This addon was designed to be a simple, straightforward and reliable way for coop players to enjoy the process of building up veteran units. Almost all scenarios are "Kill all enemy leaders" and rely on core features of Wesnoth's gameplay: terrain, income and unit leveling. Other aspects, such as unique scenario objectives and storyline, do not feature. In return for this simplicity of concept, we hope to be able to regularly and rapidly add new battlegrounds so that players can continue to play on new terrain or start fresh with a new faction whenever they want.
 
-It includes 28 maps on 7 different difficulty levels. Only one of these maps is not a "Kill all enemy leaders" scenario and it is a simple "Reach the signpost" scenario instead. Future releases may include more imaginative scenarios, but these will be categorized or described in such a way so that the player knows clearly what they are getting into before they choose the scenario.
+It includes 33 maps on 7 different difficulty levels. Only two of these maps are not "Kill all enemy leaders" scenarios and they are a simple "Reach the signpost" scenario instead. Future releases may include more imaginative scenarios, but these will be categorized or described in such a way so that the player knows clearly what they are getting into before they choose the scenario.
 
 
 =========================
@@ -46,12 +46,17 @@ H-Hour		WML/Maps
 		0101_3p_outlaw_fortress
 		0102_4p_on_hostile_ground
 		0105_4p_idyllic_age
+		0108_4p_fae_crossing
 		0201_4p_northern_thaw
 		0203_4p_salvaged_woods
+		0207_4p_sister_kingdoms
+		0208_4p_sunken_ground
 		0301_5p_river_wye
 		0302_6p_raeners_gap
 		0303_3p_coastal_ruin
 		0304_4p_mountain_passes
+		0405_6p_stuck
+		0503_5p_gauntlet
 		0601_6p_weary_age
 		0701_4p_edge_earth
 		
@@ -91,6 +96,16 @@ azrael1322	Maps
 5. Change log
 -------------
 
+v1.2
+Released: 
+- Players will get an extra 2 income per level starting at level 3 to help support the large armies they will need to win
+- Reduced snow and ice on 0201_4p_northern_thaw to prevent AI from running into ice bridge
+- 5 new maps:	0108_4p_fae_crossing
+		0207_4p_sister_kingdoms
+		0208_4p_sunken_ground
+		0405_6p_stuck
+		0503_5p_gauntlet
+
 v1.1.1
 Released: 2010-10-24
 - Reintroduces undo functionality for player moves.
@@ -98,11 +113,11 @@ Released: 2010-10-24
 v1.1
 Released: 2010-10-15
 - 6 new maps:	0105_4p_idyllic_age
-				0106_3p_cave_illumination
-				0107_4p_river_faceoff
-				0205_4p_rock_water
-				0206_3p_river_delta
-				0306_4p_barrows
+		0106_3p_cave_illumination
+		0107_4p_river_faceoff
+		0205_4p_rock_water
+		0206_3p_river_delta
+		0306_4p_barrows
 
 v1.0
 Released: 2010-10-07
