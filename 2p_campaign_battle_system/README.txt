@@ -1,5 +1,5 @@
 2p Campaign Battle System
-v1.1.1
+v1.3
 -------------------------
 
 1. What is it?
@@ -17,7 +17,7 @@ The 2p Campaign Battle System is a simple addon for Wesnoth version 1.8.x that a
 
 This addon was designed to be a simple, straightforward and reliable way for coop players to enjoy the process of building up veteran units. Almost all scenarios are "Kill all enemy leaders" and rely on core features of Wesnoth's gameplay: terrain, income and unit leveling. Other aspects, such as unique scenario objectives and storyline, do not feature. In return for this simplicity of concept, we hope to be able to regularly and rapidly add new battlegrounds so that players can continue to play on new terrain or start fresh with a new faction whenever they want.
 
-It includes 33 maps on 7 different difficulty levels. Only two of these maps are not "Kill all enemy leaders" scenarios and they are a simple "Reach the signpost" scenario instead. Future releases may include more imaginative scenarios, but these will be categorized or described in such a way so that the player knows clearly what they are getting into before they choose the scenario.
+It includes 38 maps on 7 different difficulty levels. Only two of these maps are not "Kill all enemy leaders" scenarios and they are a simple "Reach the signpost" scenario instead. Future releases may include more imaginative scenarios, but these will be categorized or described in such a way so that the player knows clearly what they are getting into before they choose the scenario.
 
 
 =========================
@@ -39,48 +39,57 @@ If you're losing, don't restart! If your leader dies you will lose all your gold
 
 Thanks goes first and foremost to the many developers of Battle for Wesnoth, for creating such a malleable game platform. Other than a tricky out of sync error, which Gambit graciously helped me locate and work out, this was incredibly easy to put together.
 
-Otherwise, this is just a two-man effort by two coop players who sucked too much to complete any of the available multiplayer campaigns:
+Otherwise, this is mostly a two-man effort by two coop players who sucked too much to complete any of the available multiplayer campaigns. I also grabbed four maps from Palatin's small 2vs2 map pack. They work well vs AI and thanks to Palatin for giving me permission me use them. See his maps at: http://forums.wesnoth.org/viewtopic.php?f=15&t=33415
 
 H-Hour		WML/Maps
-		--------
-		0101_3p_outlaw_fortress
-		0102_4p_on_hostile_ground
-		0105_4p_idyllic_age
-		0108_4p_fae_crossing
-		0201_4p_northern_thaw
-		0203_4p_salvaged_woods
-		0207_4p_sister_kingdoms
-		0208_4p_sunken_ground
-		0301_5p_river_wye
-		0302_6p_raeners_gap
-		0303_3p_coastal_ruin
-		0304_4p_mountain_passes
-		0405_6p_stuck
-		0503_5p_gauntlet
-		0601_6p_weary_age
-		0701_4p_edge_earth
+			--------
+			0101_3p_outlaw_fortress
+			0102_4p_on_hostile_ground
+			0105_4p_idyllic_age
+			0108_4p_fae_crossing
+			0201_4p_northern_thaw
+			0203_4p_salvaged_woods
+			0207_4p_sister_kingdoms
+			0208_4p_sunken_ground
+			0211_4p_fading_glory
+			0301_5p_river_wye
+			0302_6p_raeners_gap
+			0303_3p_coastal_ruin
+			0304_4p_mountain_passes
+			0405_6p_stuck
+			0503_5p_gauntlet
+			0601_6p_weary_age
+			0701_4p_edge_earth
 		
 azrael1322	Maps
-		----
-		0103_4p_invading_sands
-		0104_4p_road_north
-		0106_3p_cave_illumination
-		0107_4p_river_faceoff
-		0202_4p_desert_fortress
-		0204_4p_mosaic
-		0205_4p_rock_water
-		0206_3p_river_delta
-		0305_5p_among_whitetops
-		0306_4p_barrows
-		0401_6p_cursed_castle
-		0402_5p_valley_heath
-		0403_4p_siders_web
-		0404_3p_forest_fallen
-		0501_3p_citadel
-		0502_7p_besieged
-		0602_4p_wasteland
+			----
+			0103_4p_invading_sands
+			0104_4p_road_north
+			0106_3p_cave_illumination
+			0107_4p_river_faceoff
+			0202_4p_desert_fortress
+			0204_4p_mosaic
+			0205_4p_rock_water
+			0206_3p_river_delta
+			0305_5p_among_whitetops
+			0306_4p_barrows
+			0401_6p_cursed_castle
+			0402_5p_valley_heath
+			0403_4p_spiders_web
+			0404_3p_forest_fallen
+			0501_3p_citadel
+			0502_7p_besieged
+			0602_4p_wasteland
 
 
+Palatin		Maps
+			----
+			0109_4p_two_worlds
+			0110_4p_coral_kingdom
+			0209_4p_hidden_vale
+			0210_4p_dark_home
+			
+			
 =========================
 
 4. Known Problems
@@ -96,15 +105,23 @@ azrael1322	Maps
 5. Change log
 -------------
 
+v1.3
+Released: 2011-08-13
+- 5 new maps: 	0109_4p_two_worlds
+				0110_4p_coral_kingdom
+				0209_4p_hidden_vale
+				0210_4p_dark_home
+				0211_4p_fading_glory
+
 v1.2
-Released: 
+Released: 2011-02-24
 - Players will get an extra 2 income per level starting at level 3 to help support the large armies they will need to win
 - Reduced snow and ice on 0201_4p_northern_thaw to prevent AI from running into ice bridge
 - 5 new maps:	0108_4p_fae_crossing
-		0207_4p_sister_kingdoms
-		0208_4p_sunken_ground
-		0405_6p_stuck
-		0503_5p_gauntlet
+				0207_4p_sister_kingdoms
+				0208_4p_sunken_ground
+				0405_6p_stuck
+				0503_5p_gauntlet
 
 v1.1.1
 Released: 2010-10-24
